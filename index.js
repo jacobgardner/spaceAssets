@@ -1,4 +1,5 @@
 module.exports = {
     'Ship-Default': require('image!./textures/ships/default.png'),
-    'default': require('file!./shaders/post.frag'),
+    'defaultVert': require('file!./shaders/default.vert'),
+    'defaultFrag': require('file!./shaders/default.frag'),
 };
